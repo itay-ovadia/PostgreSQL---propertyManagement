@@ -25,6 +25,9 @@ Removes existing tables (`properties`, `landlords`) if they already exist to avo
   - `landlordage` (FLOAT): Age of the landlord.
   - `landlordbirthday` (DATE): Birthday.
   - `propertyid` (VARCHAR(50)): Foreign key linking to a property.
+ 
+![2](https://github.com/user-attachments/assets/8d787185-f7ef-413b-9479-8883ae93726d)
+![1](https://github.com/user-attachments/assets/6be8695f-9699-44d0-bf7f-8fa2c68afb83)
 
 ### Inserting Data
 Adds sample rows to both `properties` and `landlords` tables to demonstrate relationships and queries.
@@ -36,8 +39,7 @@ Updates existing rows, such as linking landlords to a property via the `property
 - **Join Query**: Retrieves combined property and landlord information using a `LEFT JOIN`.
 - **Sorting**: Orders the results alphabetically by `propertyname`.
 - **Aggregation**: Calculates total square meters across all properties using `SUM(sqmeter)`.
-![2](https://github.com/user-attachments/assets/8d787185-f7ef-413b-9479-8883ae93726d)
-![1](https://github.com/user-attachments/assets/6be8695f-9699-44d0-bf7f-8fa2c68afb83)
+
 
 ---
 
